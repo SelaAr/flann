@@ -31,8 +31,8 @@
 #ifndef FLANN_LINEAR_INDEX_H_
 #define FLANN_LINEAR_INDEX_H_
 
-#include "flann/general.h"
-#include "flann/algorithms/nn_index.h"
+#include "../general.h"
+#include "nn_index.h"
 
 namespace flann
 {

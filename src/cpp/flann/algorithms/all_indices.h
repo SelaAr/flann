@@ -30,19 +30,19 @@
 #ifndef FLANN_ALL_INDICES_H_
 #define FLANN_ALL_INDICES_H_
 
-#include "flann/general.h"
+#include "../general.h"
 
-#include "flann/algorithms/nn_index.h"
-#include "flann/algorithms/kdtree_index.h"
-#include "flann/algorithms/kdtree_single_index.h"
-#include "flann/algorithms/kmeans_index.h"
-#include "flann/algorithms/composite_index.h"
-#include "flann/algorithms/linear_index.h"
-#include "flann/algorithms/hierarchical_clustering_index.h"
-#include "flann/algorithms/lsh_index.h"
-#include "flann/algorithms/autotuned_index.h"
+#include "nn_index.h"
+#include "kdtree_index.h"
+#include "kdtree_single_index.h"
+#include "kmeans_index.h"
+#include "composite_index.h"
+#include "linear_index.h"
+#include "hierarchical_clustering_index.h"
+#include "lsh_index.h"
+#include "autotuned_index.h"
 #ifdef FLANN_USE_CUDA
-#include "flann/algorithms/kdtree_cuda_3d_index.h"
+#include "kdtree_cuda_3d_index.h"
 #endif
 
 

@@ -32,7 +32,7 @@
 
 #include <hdf5.h>
 
-#include "flann/util/matrix.h"
+#include "../util/matrix.h"
 
 
 namespace flann

@@ -36,7 +36,7 @@
 #include <thrust/unique.h>
 #include <thrust/scan.h>
 #include <thrust/execution_policy.h>
-#include <flann/util/cutil_math.h>
+#include "../util/cutil_math.h"
 #include <stdlib.h>
 
 // #define PRINT_DEBUG_TIMING

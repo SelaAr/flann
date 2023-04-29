@@ -35,11 +35,11 @@
 #include <cassert>
 #include <cmath>
 
-#include "flann/util/matrix.h"
-#include "flann/algorithms/nn_index.h"
-#include "flann/util/result_set.h"
-#include "flann/util/logger.h"
-#include "flann/util/timer.h"
+#include "../util/matrix.h"
+#include "../algorithms/nn_index.h"
+#include "../util/result_set.h"
+#include "../util/logger.h"
+#include "../util/timer.h"
 
 
 namespace flann

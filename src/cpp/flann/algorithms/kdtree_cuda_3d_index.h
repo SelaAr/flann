@@ -36,15 +36,15 @@
 #include <map>
 #include <cassert>
 #include <cstring>
-#include "flann/general.h"
-#include "flann/algorithms/nn_index.h"
-#include "flann/util/matrix.h"
-#include "flann/util/result_set.h"
-#include "flann/util/heap.h"
-#include "flann/util/allocator.h"
-#include "flann/util/random.h"
-#include "flann/util/saving.h"
-#include "flann/util/params.h"
+#include "../general.h"
+#include "nn_index.h"
+#include "../util/matrix.h"
+#include "../util/result_set.h"
+#include "../util/heap.h"
+#include "../util/allocator.h"
+#include "../util/random.h"
+#include "../util/saving.h"
+#include "../util/params.h"
 
 namespace flann
 {

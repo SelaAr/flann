@@ -28,23 +28,23 @@
  *************************************************************************/
 
 #include "kdtree_cuda_3d_index.h"
-#include <flann/algorithms/dist.h>
-#include <flann/util/cuda/result_set.h>
+#include <../algorithms/dist.h>
+#include <../util/cuda/result_set.h>
 // #define THRUST_DEBUG 1
 #include <cuda.h>
 #include <thrust/gather.h>
 #include <thrust/copy.h>
 #include <thrust/device_vector.h>
 #include <vector_types.h>
-#include <flann/util/cutil_math.h>
+#include <../util/cutil_math.h>
 #include <thrust/host_vector.h>
 #include <thrust/copy.h>
-#include <flann/util/cuda/heap.h>
+#include <../util/cuda/heap.h>
 #include <thrust/scan.h>
 #include <thrust/count.h>
 #include <thrust/device_malloc.h>
 #include <thrust/device_free.h>
-#include <flann/algorithms/kdtree_cuda_builder.h>
+#include <kdtree_cuda_builder.h>
 #include <vector_types.h>
 namespace flann
 {

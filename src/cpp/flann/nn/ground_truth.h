@@ -31,8 +31,8 @@
 #ifndef FLANN_GROUND_TRUTH_H_
 #define FLANN_GROUND_TRUTH_H_
 
-#include "flann/algorithms/dist.h"
-#include "flann/util/matrix.h"
+#include "../algorithms/dist.h"
+#include "../util/matrix.h"
 
 
 namespace flann

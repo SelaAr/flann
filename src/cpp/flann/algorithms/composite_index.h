@@ -31,10 +31,10 @@
 #ifndef FLANN_COMPOSITE_INDEX_H_
 #define FLANN_COMPOSITE_INDEX_H_
 
-#include "flann/general.h"
-#include "flann/algorithms/nn_index.h"
-#include "flann/algorithms/kdtree_index.h"
-#include "flann/algorithms/kmeans_index.h"
+#include "../general.h"
+#include "nn_index.h"
+#include "kdtree_index.h"
+#include "kmeans_index.h"
 
 namespace flann
 {

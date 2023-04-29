@@ -41,15 +41,15 @@
 #include <map>
 #include <vector>
 
-#include "flann/general.h"
-#include "flann/algorithms/nn_index.h"
-#include "flann/util/matrix.h"
-#include "flann/util/result_set.h"
-#include "flann/util/heap.h"
-#include "flann/util/lsh_table.h"
-#include "flann/util/allocator.h"
-#include "flann/util/random.h"
-#include "flann/util/saving.h"
+#include "../general.h"
+#include "nn_index.h"
+#include "../util/matrix.h"
+#include "../util/result_set.h"
+#include "../util/heap.h"
+#include "../util/lsh_table.h"
+#include "../util/allocator.h"
+#include "../util/random.h"
+#include "../util/saving.h"
 
 namespace flann
 {

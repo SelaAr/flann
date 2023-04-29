@@ -30,7 +30,7 @@
 #ifndef MPI_SERVER_H_
 #define MPI_SERVER_H_
 
-#include <flann/mpi/index.h>
+#include <index.h>
 #include <stdio.h>
 #include <time.h>
 

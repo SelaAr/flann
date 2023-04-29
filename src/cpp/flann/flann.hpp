@@ -37,12 +37,12 @@
 #include <cassert>
 #include <cstdio>
 
-#include "flann/general.h"
-#include "flann/util/matrix.h"
-#include "flann/util/params.h"
-#include "flann/util/saving.h"
+#include "general.h"
+#include "./util/matrix.h"
+#include "./util/params.h"
+#include "./util/saving.h"
 
-#include "flann/algorithms/all_indices.h"
+#include "./algorithms/all_indices.h"
 
 namespace flann
 {
