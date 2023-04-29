@@ -49,8 +49,8 @@
 #include <math.h>
 #include <stddef.h>
 
-#include "flann/util/dynamic_bitset.h"
-#include "flann/util/matrix.h"
+#include "dynamic_bitset.h"
+#include "matrix.h"
 
 namespace flann
 {

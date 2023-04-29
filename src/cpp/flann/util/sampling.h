@@ -30,8 +30,8 @@
 #ifndef FLANN_SAMPLING_H_
 #define FLANN_SAMPLING_H_
 
-#include "flann/util/matrix.h"
-#include "flann/util/random.h"
+#include "matrix.h"
+#include "random.h"
 
 namespace flann
 {
